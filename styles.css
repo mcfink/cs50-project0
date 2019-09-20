@@ -1,0 +1,37 @@
+h1 {
+  color: "#0F07B1";
+  font-family: Verdana, "Helvetica LT Std", sans-serif;
+}
+h1 .page-title {
+  color: "#029042";
+}
+
+h2 {
+  font-family: Verdana, "Helvetica LT Std", sans-serif;
+  color: "#0F07B1";
+}
+
+h3 {
+  font-family: Verdana, "Helvetica LT Std", sans-serif;
+  color: "#E68900";
+}
+
+td.table-strong {
+  font-weight: bold;
+}
+
+td.data {
+  text-align: right;
+}
+
+p#blueberry {
+  color: "#0F07B1";
+}
+
+@media print {
+  div {
+    page-break-inside: avoid;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

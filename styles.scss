@@ -1,0 +1,44 @@
+$my_purple: '#531C9C';
+$my_blue: '#0F07B1';
+$my_green: '#029042';
+$my_yellow: '#E68900';
+$my_red: '#A10E03';
+
+
+
+h1{
+  color: $my_blue;
+  font-family: Verdana, "Helvetica LT Std", sans-serif;
+  .page-title{
+    color: $my_green;
+  }
+}
+
+h2{
+  font-family: Verdana, "Helvetica LT Std", sans-serif;
+  color: $my_blue;
+}
+
+h3{
+  font-family: Verdana, "Helvetica LT Std", sans-serif;
+  color:$my_yellow;
+}
+
+td.table-strong{
+  font-weight: bold;
+}
+
+td.data{
+  text-align: right;
+}
+
+p#blueberry{
+  color: $my_blue;
+}
+
+@media print
+{
+    div {
+        page-break-inside: avoid;
+    }
+}
